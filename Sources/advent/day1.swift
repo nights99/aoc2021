@@ -8,7 +8,7 @@ func loadIntsFromFile() -> [Int?]? {
                         .map(Int.init)
 }
 
-func part1() {
+private func part1() {
     let lines = loadIntsFromFile()
 
     // Use zip to create a list of tuples of consecutive numbers, compare them, 
@@ -19,7 +19,7 @@ func part1() {
     print(diffs.reduce(0,+))
 }
 
-func part2() {
+private func part2() {
     let lines = loadIntsFromFile()
 
     // Use zip to create a list of tuples of consecutive numbers, compare them, 
