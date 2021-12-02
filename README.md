@@ -1,3 +1,3 @@
 # Advent of Code '21
 
-Some fumbling towards some ;earning of Swift.
+Some fumbling towards some learning of Swift.
