@@ -29,7 +29,7 @@ final class adventTests: XCTestCase {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
 
-        XCTAssertEqual(output, "1714680\n")
+        XCTAssertEqual(output, "Part 1 answer: 1714680\nPart 2 answer: 1963088820\n")
         #endif
     }
 
