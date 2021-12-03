@@ -1,4 +1,4 @@
-let default_day = day2
+let default_day = day3
 if CommandLine.argc == 1 {
     default_day()
 } else {

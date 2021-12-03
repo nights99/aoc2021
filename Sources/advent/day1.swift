@@ -1,7 +1,7 @@
 import Foundation
 
 /// Load the whole file, split into lines, convert to Int
-func loadIntsFromFile() -> [Int?]? {
+private func loadIntsFromFile() -> [Int?]? {
     return try? String(contentsOfFile: "./inputs/day1/input.txt", encoding: String.Encoding.ascii)
                         .split{$0 == "\n"}
                         .map(String.init)
